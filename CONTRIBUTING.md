@@ -13,7 +13,7 @@
 This command will clone the repo, cd into the project, and install the project's npm dependencies.
 
 ```sh
-  git clone https://gitlab.com/galileo-insights/gmr/gmr-front-end.git && cd gmr-front-end && yarn
+  git clone git@github.com:whilejoe/monorepo-nextjs.git && yarn
 ```
 
 ### Configuring Your IDE
@@ -43,8 +43,7 @@ All recommended plugins will show up under the tab `extensions > recommended`. A
 
 ## 🚀 Development
 
-Copy the `.env.local.example` file and rename to `.env.local`.
-_Note: Reach out in the [gmr_dev](https://galileospacestation.slack.com/archives/C03CZ64G9KR) slack channel to help with obtaining the values._
+Copy the `.env.local.example` file and rename to `.env.local`
 
 To develop all apps and packages, run:
 
@@ -91,46 +90,6 @@ yarn start
 
 For a more accurate representation of a production build:
 
-#### Add Platform For Android/iOS
-
-```
-# System requirements
-Install android studio and JDK. Need to set android sdk and jdk path in system environment.
-Install xcode in mac.
-
-```
-
-Need to add platform for android and ios application (symlinking is handled by yarn).
-Below are the commands you can use for this:
-
-```
-# Add Android platform
-yarn run add:android
-
-```
-
-```
-# Add iOS platform
-yarn run add:ios
-
-```
-
-### Run And Build Android \ iOS
-
-Below are the commands you can use:
-
-```
-
-# Run and Build android
-
-yarn run android
-
-# Run and Build iOS
-
-yarn run ios
-
-```
-
 #### Docker
 
 ```
@@ -154,22 +113,5 @@ To shutdown all running containers:
 # Stop all running containers
 
 docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
-
-```
-
-### Testing
-
-Coming soon...
-
-### Deploying To Dev
-
-- Validate a successful production build locally
-- Open a [PR](https://gitlab.com/galileo-insights/gmr/gmr-front-end/-/merge_requests) to the `main` branch
-- Merge after at least one approval
-- Validate the [pipeline](https://gitlab.com/galileo-insights/gmr/gmr-front-end/-/pipelines) build succeeds
-- Syncronize the changes via [argocd](https://argocd.infra.access2care.com/applications/argocd/app-dev-gmr-front-end?view=tree&resource=&node=apps%2FDeployment%2Fgmr-front-end%2Fgmr-front-end%2F0&deploy=apps%2FDeployment%2Fgmr-front-end%2Fgmr-front-end), selecting the `replace` option
-- Update Jira ticket to `testing` status
-
-```
 
 ```
