@@ -1,0 +1,13 @@
+{
+  "SelectAccessHeader": "Soy cuidador",
+  "SelectAccessText": "Seleccione el paciente del que le gustaría actuar como cuidador.",
+  "NoPatients": "No hay pacientes para seleccionar",
+  "SelectPatientAction": "Seleccione la acción del paciente",
+  "NoAccess": "Sin acceso",
+  "Name": "Nombre",
+  "AccessType": "Tipo de acceso",
+  "ContinueAsSelf": "Continuar como uno mismo",
+  "AccessTypeViewOnly": "Sólo vista",
+  "AccessTypeFullAccess": "Acceso completo",
+  "RegisterAsPatient": "Registrarse como paciente"
+}

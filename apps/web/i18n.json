@@ -1,0 +1,13 @@
+{
+  "locales": ["en", "es"],
+  "defaultLocale": "en",
+  "localeDetection": false,
+  "pages": {
+    "*": ["common", "caregivers", "select-access", "settings"],
+    "/": ["home"],
+    "/help-center": ["help-center"],
+    "/register-caregiver": ["register"],
+    "/register-patient": ["register"],
+    "/admin": ["members"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "dedup": "yarn-deduplicate yarn.lock",
+    "prepare": "husky install",
+    "clean:packages": "turbo run clean --parallel",
+    "clean:root": "rimraf node_modules",
+    "clean": "run-s clean:*"
+  },
+  "lint-staged": {
+    "*.{ts, tsx}": [
+      "eslint --fix"
+    ],
+    "!(package).json": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-custom": "*",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.0",
+    "turbo": "1.8.5",
+    "yarn-deduplicate": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=v16.13.0 <=18x",
+    "yarn": "^1.22.5"
+  },
+  "packageManager": "yarn@1.22.5"
+}

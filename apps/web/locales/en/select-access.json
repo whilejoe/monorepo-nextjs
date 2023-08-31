@@ -1,0 +1,13 @@
+{
+  "SelectAccessHeader": "I'm a Caregiver",
+  "SelectAccessText": "Select the patient you would like to act as caregiver for.",
+  "NoPatients": "No patients to select",
+  "SelectPatientAction": "Select patient action",
+  "NoAccess": "No Access",
+  "Name": "Name",
+  "AccessType": "Access Type",
+  "ContinueAsSelf": "Continue As Self",
+  "AccessTypeViewOnly": "View Only",
+  "AccessTypeFullAccess": "Full Access",
+  "RegisterAsPatient": "Register As Patient"
+}

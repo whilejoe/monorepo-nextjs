@@ -1,0 +1,19 @@
+{
+  "ColumnHeaderActions": "Seleccionar acción de miembro",
+  "ColumnHeaderDOB": "No hay resultados",
+  "ColumnHeaderGroupName": "Grupo(s)",
+  "ColumnHeaderMemberName": "Nombre de miembro",
+  "ColumnHeaderFirstName": "Nombre de pila",
+  "ColumnHeaderMemberID": "ID(s) de miembro",
+  "ColumnHeaderLastName": "Apellido",
+  "ColumnHeaderPhone": "Número de teléfono",
+  "FormLabelFirstName": "Nombre de pila",
+  "FormLabelLastName": "Apellido",
+  "FormLabelMemberID": "Identificación de miembro",
+  "FormLabelDOB": "Fecha de nacimiento",
+  "FormLabelPhoneNumber": "Número de teléfono",
+  "FormActionPrimary": "Buscar",
+  "MemberSearchHeading": "Búsqueda de miembros",
+  "MembersHeading": "Miembros",
+  "NoResultsMessage": "No hay resultados"
+}

@@ -1,0 +1,19 @@
+{
+  "ColumnHeaderActions": "Select member action",
+  "ColumnHeaderDOB": "Date of birth",
+  "ColumnHeaderGroupName": "Group(s)",
+  "ColumnHeaderMemberName": "Member name",
+  "ColumnHeaderFirstName": "First name",
+  "ColumnHeaderMemberID": "Member Id(s)",
+  "ColumnHeaderLastName": "Last name",
+  "ColumnHeaderPhone": "Phone number",
+  "FormLabelFirstName": "First Name",
+  "FormLabelLastName": "Last Name",
+  "FormLabelMemberID": "Member ID",
+  "FormLabelDOB": "Date of Birth",
+  "FormLabelPhoneNumber": "Phone Number",
+  "FormActionPrimary": "Search",
+  "MemberSearchHeading": "Member Search",
+  "MembersHeading": "Members",
+  "NoResultsMessage": "No Results"
+}
